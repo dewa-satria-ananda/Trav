@@ -1,0 +1,318 @@
+.container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* LOGIN PAGE */
+.login-bg {
+    background-image: url("/image/bg-login-page.png");
+    background-size: cover;
+}
+
+.login-card {
+    border-radius: 18px !important;
+}
+
+.login-image {
+    width: 90px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-btn {
+    background-color: #d9e1e8;
+    color: #2b90d9;
+}
+
+.login-title {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.login-subtitle {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* HOME PAGE */
+.nav {
+    color: black;
+    text-decoration: none !important;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.latest-post {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 7px;
+}
+
+.add-post {
+    font-size: 12px !important;
+    font-family: Poppins !important;
+    font-weight: 600 !important;
+    background-color: #d9e1e8 !important;
+    color: #2b90d9 !important;
+    width: fit-content;
+}
+
+.space {
+    background-color: #d9e1e8 !important;
+}
+
+.post {
+    border-bottom: none !important;
+}
+
+.card-shadow {
+    box-shadow: none !important;
+    border: 0px !important;
+    border-radius: 0px !important;
+}
+
+.post-account-img {
+    width: 85px;
+    height: 85px;
+}
+
+.post-name {
+    color: #000;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.post-title {
+    color: #000;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.post-subtitle {
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.travel-together-title {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.account-image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 135px;
+    height: 135px;
+}
+
+.account-title {
+    color: #000;
+    font-family: Poppins !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+}
+
+.account-subtitle {
+    color: #000 !important;
+    font-family: Poppins !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+}
+
+.profile-title {
+    color: #000;
+    font-family: Poppins !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+}
+
+.profile-subtitle {
+    color: #000;
+    font-family: Poppins !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+}
+
+.discussion-view {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 3px;
+}
+
+.post-card {
+    height: fit-content;
+}
+
+.like {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+}
+
+/* HOME PAGE */
+
+.saveBtn {
+    background-color: #d9e1e8 !important;
+    color: #2b90d9 !important;
+    width: 65px !important;
+    font-size: 12px !important;
+    font-family: Poppins !important;
+    font-weight: 600 !important;
+}
+
+.cancelBtn {
+    background-color: #e8d9d9 !important;
+    color: #a62020 !important;
+    /* width: 60px !important; */
+    font-size: 12px !important;
+    font-family: Poppins !important;
+    font-weight: 600 !important;
+}
+
+/* EDIT PAGE */
+
+.edit-profile-text {
+    font-size: 12px !important;
+    font-family: Poppins !important;
+    font-weight: 500 !important;
+}
+
+/* DISCUSSION DETAIL */
+
+.backBtn {
+    font-size: 14px !important;
+    font-family: Poppins !important;
+    padding: 7px !important;
+}
+
+/* TRAVEL TOGETHER */
+
+.room-delete-btn {
+    border: 0px;
+    color: red;
+    background-color: white;
+}
+
+/* FORM FONT */
+.form-font {
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.modal-title {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* DOINK DOINK */
+
+.hvr-float {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-float:hover,
+.hvr-float:focus,
+.hvr-float:active {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+
+/* LEFT RIGHT NAVBAR */
+
+.left {
+    padding-top: 22px;
+    /* padding-right: 7.5px; */
+}
+
+.right {
+    padding-top: 22px;
+}
+
+.card-border-radius {
+    border-radius: 1.3rem !important;
+}
+
+.card-manual {
+    position: relative;
+    display: -ms-flexbox;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0, 0, 0, 0.125);
+    border-radius: 1.3rem;
+    margin-bottom: 7.5px;
+}
+
+.right-navbar-profile {
+    display: flex;
+    justify-content: center;
+}
+
+.right-navbar-logout {
+    display: flex;
+    justify-content: center;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+
+.top-mid-btn {
+    padding-top: 11px;
+}
+
+.text-from {
+    background-color: #2b90d9 !important;
+    max-width: 65%;
+    width: fit-content;
+    color: white;
+}
+
+.text-to {
+    background-color: White;
+    max-width: 65%;
+    width: fit-content;
+}
+
+.chat-text {
+    font-size: 14px !important;
+    font-family: Poppins !important;
+}
+
+body {
+    background-color: #d9e1e8 !important;
+}
+
+/* chat */
+.chat-card {
+    height: calc(100% - 50px);
+    overflow-y: auto;
+    overflow-y: scroll
+}
